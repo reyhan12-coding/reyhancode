@@ -1,8 +1,24 @@
-# ReyhanCODE - AI-Powered Code Review Assistant
+# ReyhanCODE – AI-Powered Code Review Assistant
 
 ![ReyhanCODE Banner](https://img.shields.io/badge/ReyhanCODE-AI%20Code%20Review-6366f1?style=for-the-badge)
 
-Platform web profesional untuk menganalisis kode program secara otomatis menggunakan AI (OpenAI GPT-4) dan memberikan saran perbaikan yang jelas, terstruktur, dan dapat langsung diterapkan.
+**ReyhanCODE** adalah platform web profesional untuk **menganalisis kualitas kode program secara otomatis** menggunakan **AI gratis + Smart Pattern Analysis**, serta memberikan **saran perbaikan yang jelas, relevan, dan dapat langsung diterapkan**.
+
+Platform ini dirancang untuk **developer pemula hingga profesional** dengan dukungan **JavaScript, TypeScript, dan Python**.
+
+---
+
+## 🌐 Live Demo
+Cobalah aplikasi ini secara langsung:
+
+### 🧠 Catatan untuk Reviewer
+Fitur Wawasan AI akan aktif secara optimal setelah minimal **3 data kesehatan** dimasukkan.  
+Hal ini karena sistem menganalisis **pola dan tren**, bukan satu data tunggal, demi menjaga akurasi dan etika penggunaan AI.
+
+
+### 👉 [KLIK DISINI UNTUK MEMBUKA WEBSITE](https://reyhancode.vercel.app/login)
+
+---
 
 ## 🎯 Fitur Utama
 
