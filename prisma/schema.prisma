@@ -1,0 +1,63 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String       @id @default(uuid())
+  name        String
+  email       String       @unique
+  password    String
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  codeReviews CodeReview[]
+
+  @@map("users")
+}
+
+model CodeReview {
+  id         String         @id @default(uuid())
+  userId     String
+  user       User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  language   String         // javascript, typescript, python
+  sourceType String         // paste, upload, github
+  code       String         @db.Text
+  score      Int            @default(0) // 0-100
+  fileName   String?
+  githubUrl  String?
+  label      String?        // Frontend, Backend, Auth, etc (for categorization)
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+  results    ReviewResult[]
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("code_reviews")
+}
+
+model ReviewResult {
+  id          String     @id @default(uuid())
+  reviewId    String
+  review      CodeReview @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  category    String     // code_smell, security, performance, best_practice
+  severity    String     // low, medium, high
+  title       String
+  description String     @db.Text
+  suggestion  String     @db.Text
+  codeBefore  String?    @db.Text
+  codeAfter   String?    @db.Text
+  reasoning   String     @db.Text // AI reasoning panel
+  line        Int?       // Line number in code
+  createdAt   DateTime   @default(now())
+
+  @@index([reviewId])
+  @@index([severity])
+  @@map("review_results")
+}
