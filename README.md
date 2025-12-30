@@ -87,7 +87,7 @@ Mendukung analisis untuk:
 
 | **(Hasil Analisis Kode)** | |
 | :---: | :---: |
-| ![Hasil Analisis Kode)](https://github.com/user-attachments/assets/ef0de85f-a15d-4b94-9843-480f3f1a55f0) | |
+| !Hasil Analisis Kode](https://github.com/user-attachments/assets/ef0de85f-a15d-4b94-9843-480f3f1a55f0) | |
 
 ### OUTPUT KODE 
 
