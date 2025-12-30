@@ -1,4 +1,4 @@
-# ReyhanCODE – AI-Powered Code Review Assistant
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b2ccb0f0-c82b-4f2d-aa61-a4e8d98c386b" /># ReyhanCODE – AI-Powered Code Review Assistant
 
 ![ReyhanCODE Banner](https://img.shields.io/badge/ReyhanCODE-AI%20Code%20Review-6366f1?style=for-the-badge)
 
@@ -10,42 +10,58 @@ Platform ini dirancang untuk **developer pemula hingga profesional** dengan duku
 
 ## 🌐 Live Demo
 Cobalah aplikasi ini secara langsung:
-
-### 🧠 Catatan untuk Reviewer
-Fitur Wawasan AI akan aktif secara optimal setelah minimal **3 data kesehatan** dimasukkan.  
-Hal ini karena sistem menganalisis **pola dan tren**, bukan satu data tunggal, demi menjaga akurasi dan etika penggunaan AI.
-
-
 ### 👉 [KLIK DISINI UNTUK MEMBUKA WEBSITE](https://reyhancode.vercel.app/login)
 
 ---
 
+
 ## 🎯 Fitur Utama
 
-### Analisis Kode Komprehensif
-- **Code Smell Detection**: Mendeteksi variabel tidak terpakai, fungsi terlalu panjang, duplikasi kode, penamaan tidak konsisten, dan magic numbers
-- **Security Vulnerability Analysis**: Menemukan hardcoded secrets, SQL injection, XSS, masalah autentikasi, dan kurangnya validasi input
-- **Performance Optimization**: Mengidentifikasi loop tidak efisien, async/await yang salah, query database tidak optimal
-- **Best Practice Recommendations**: Saran untuk Clean Code, SOLID principles, separation of concerns
+### 🔍 Analisis Kode Multi-Bahasa
+Mendukung analisis untuk:
+- **JavaScript**
+- **TypeScript**
+- **Python**
 
-### Fitur Premium
-- ⭐ **Severity Level System**: Setiap temuan diberi level (Low/Medium/High) dengan penjelasan risiko
-- ⭐ **Before vs After Code Preview**: Perbandingan visual kode sebelum dan sesudah perbaikan
-- ⭐ **AI Reasoning Panel**: Penjelasan detail kenapa sesuatu dianggkan masalah
-- ⭐ **Review History**: Simpan dan lihat kembali semua analisis sebelumnya
-- ⭐ **GitHub Integration**: Analisis file langsung dari repository GitHub
-- ⭐ **Review Score System**: Skor kualitas 0-100 dengan breakdown (Readability, Security, Performance, Maintainability)
-- ⭐ **Mode Pemula & Profesional**: Pilih level detail penjelasan sesuai kebutuhan
+### 🧠 Smart Analysis Engine (Gratis)
+- **AI Hugging Face (StarCoder)** sebagai primary analyzer (FREE tier)
+- **Smart Mock Pattern Engine** sebagai fallback (offline-safe)
+- Tidak membutuhkan OpenAI API Key
+
+### 🛡️ Kategori Analisis
+- **Code Smell Detection**
+- **Security Vulnerability Analysis**
+- **Performance Optimization**
+- **Best Practice Recommendation**
+
+### ⭐ Fitur Unggulan
+- **Severity Level**: Low / Medium / High
+- **Before vs After Code Preview**
+- **Penjelasan AI (Reasoning)**
+- **Review History**
+- **Quality Score (0–100)**
+- **Score Breakdown**:
+  - Readability
+  - Security
+  - Performance
+  - Maintainability
+- **Mode Pemula & Profesional**
+
+---
 
 ## 🏗️ Tech Stack
 
 - **Frontend**: Next.js 14 (App Router), React, TypeScript
-- **Backend**: Next.js API Routes, Node.js
-- **Database**: PostgreSQL
+- **Backend**: Next.js API Routes (Node.js)
+- **Database**: PostgreSQL (Neon / Supabase / Railway)
 - **ORM**: Prisma
-- **AI Provider**: OpenAI GPT-4
-- **Authentication**: JWT with HTTP-only cookies
-- **Styling**: Custom CSS dengan modern dark mode design system
+- **AI Engine**:
+  - Hugging Face (StarCoder – FREE)
+  - Smart Mock Analyzer (Pattern Based)
+- **Authentication**: JWT + Middleware
+- **Styling**: Modern Dark Mode UI
+
+---
 
 ## 📦 Instalasi
 
