@@ -14,7 +14,6 @@ Cobalah aplikasi ini secara langsung:
 
 ---
 
-
 ## 🎯 Fitur Utama
 
 ### 🔍 Analisis Kode Multi-Bahasa
@@ -63,17 +62,60 @@ Mendukung analisis untuk:
 
 ---
 
+## 📸 Tampilan Aplikasi
+
+### 🔐 Register & Login
+
+| **Register** | **Login** |
+| :---: | :---: |
+| ![Register Page](https://github.com/user-attachments/assets/90d7b681-d8c7-4c05-8b2b-164946bddcb8) | ![Login Page](https://github.com/user-attachments/assets/c1170061-ad04-47c1-91c7-5994704bc7ce) |
+
+###🖥️ Dashboard
+
+| **Input Kode** | |
+| :---: | :---: |
+| ![Input Kode](https://github.com/user-attachments/assets/b8e4b0d0-1d1e-4bf3-a742-223991dd7c04) | |
+
+| **Upload File** | **Dari Github** |
+| :---: | :---: |
+| ![Upload File](https://github.com/user-attachments/assets/f358cc69-dec5-4202-b4d2-d9547829ac7e) | ![Dari Github](https://github.com/user-attachments/assets/4eca73d4-2850-4efd-81bc-79fd0003fd21) |
+
+###🧪 Contoh Implementasi –  (JavaScript)
+
+| **Kode Javascript (banyak masalah)** | |
+| :---: | :---: |
+| ![Kode Javascript (banyak masalah)](https://github.com/user-attachments/assets/b5c5ca11-73f1-4607-9d8d-6adfc2098df0) | |
+
+### OUTPUT KODE 
+
+| **Resiko Tinggi** | **Resiko Sedang** |
+| :---: | :---: |
+| ![Resiko Tinggi](https://github.com/user-attachments/assets/5ed6a210-7c56-47fa-a03c-b48c1c92c3d2) | ![Resiko Sedang](https://github.com/user-attachments/assets/aa78d0dd-1e8a-4697-9b3d-9fdaf6f1725c) |
+
+| **Resiko Sedang** | **Resiko Rendah** |
+| :---: | :---: |
+| ![Resiko Sedang](https://github.com/user-attachments/assets/5915cfa7-fb61-4c67-9b50-d678a56459c5) | ![Resiko Rendah](https://github.com/user-attachments/assets/1ea71f1f-2545-41a2-b4f6-fbf98a454f5e) |
+
+# ⌛ Riwayat Kode
+
+| **Riwayat Kode** | |
+| :---: | :---: |
+| ![Riwayat Kode](https://github.com/user-attachments/assets/bfd7ea55-62e0-4026-94c4-34c4725fd778) | |
+
+---
+
 ## 📦 Instalasi
 
 ### Prerequisites
 
 - Node.js 18+ dan npm
-- PostgreSQL database (lokal atau cloud)
-- OpenAI API Key
+- PostgreSQL database (lokal atau cloud) ( Saya memakai [Neon](https://neon.tech) )
+- HUGGINGFACE API Key
 
 ### Step 1: Clone Repository
 
 ```bash
+git clone https://github.com/reyhan12-coding/reyhancode
 cd reyhancode
 ```
 
@@ -97,10 +139,10 @@ Edit `.env` dan isi dengan kredensial Anda:
 # Database
 DATABASE_URL="postgresql://username:password@hostname:5432/reyhancode?schema=public"
 
-# OpenAI API
-OPENAI_API_KEY="sk-your-openai-api-key-here"
+# HUGGINGFACE API
+HUGGINGFACE_API_KEY="hf_your_key_here""
 
-# JWT Secret (generate random string minimum 32 karakter)
+# JWT Secret
 JWT_SECRET="your-super-secret-jwt-key-minimum-32-characters-long"
 
 # Next.js
@@ -133,20 +175,7 @@ npm run build
 npm start
 ```
 
-### Deploy ke Vercel
-
-1. Push kode ke GitHub
-2. Import project di [Vercel](https://vercel.com)
-3. Tambahkan environment variables di Vercel dashboard
-4. Deploy!
-
-### Database Cloud (Recommended)
-
-Gunakan salah satu provider berikut untuk PostgreSQL cloud:
-- [Supabase](https://supabase.com) (Free tier tersedia)
-- [Railway](https://railway.app)
-- [Neon](https://neon.tech)
-- [Vercel Postgres](https://vercel.com/storage/postgres)
+---
 
 ## 📖 Cara Menggunakan
 
@@ -187,6 +216,8 @@ AI akan:
 - Filter berdasarkan bahasa atau cari file
 - Klik review untuk melihat detail
 
+  ---
+
 ## 🎨 Fitur UI/UX
 
 - ✨ Modern dark mode design
@@ -196,6 +227,8 @@ AI akan:
 - 📱 Responsive layout
 - 🔍 Syntax highlighting
 - 💫 Loading states dengan progress indicator
+
+---
 
 ## 🔐 Keamanan
 
@@ -216,32 +249,27 @@ AI akan:
 ### ReviewResult
 - id, reviewId, category, severity, title, description, suggestion, codeBefore, codeAfter, reasoning, line
 
-## 🤝 Contributing
-
-Kontribusi selalu diterima! Silakan:
-1. Fork repository
-2. Buat branch fitur (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
-
-## 📄 License
-
-Distributed under the MIT License.
-
-## 👨‍💻 Developer
-
-Dibuat dengan ❤️ untuk meningkatkan kualitas kode developer Indonesia
+---
 
 ## 🙏 Acknowledgments
 
 - OpenAI GPT-4 untuk AI code analysis
 - Next.js team untuk amazing framework
 - Prisma untuk fantastic ORM
-- Seluruh developer yang berkontribusi pada open source
 
 ---
 
-**Catatan**: Pastikan Anda memiliki OpenAI API Key yang valid. Penggunaan API akan dikenakan biaya sesuai pricing OpenAI.
+## 👨‍💻 Tentang Pembuat
 
-Untuk pertanyaan atau dukungan, silakan buka issue di GitHub repository.
+Project ini dibuat oleh **Reyhan Arrafif Athalla**, mahasiswa Teknik Informatika Semester 5.
+
+Saya memiliki ketertarikan kuat pada **Software Engineering** dan **Web Development**. Project ini dibuat untuk melatih kemampuan saya dalam membangun aplikasi *Full Stack* yang siap produksi.
+
+Saat ini saya sedang mencari kesempatan **Magang (Internship)**.
+
+* 📧 **Email:** antnest15@gmail.com
+* 🐙 **GitHub:** [github.com/reyhan12-coding](https://github.com/reyhan12-coding)
+
+---
+
+**Dibuat dengan ❤️ untuk membantu developer menulis kode yang lebih aman, rapi, dan berkualitas**
