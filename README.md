@@ -69,7 +69,7 @@ Mendukung analisis untuk:
 | :---: | :---: |
 | ![Register Page](https://github.com/user-attachments/assets/90d7b681-d8c7-4c05-8b2b-164946bddcb8) | ![Login Page](https://github.com/user-attachments/assets/c1170061-ad04-47c1-91c7-5994704bc7ce) |
 
-###🖥️ Dashboard
+### 🖥️ Dashboard
 
 | **Input Kode** | |
 | :---: | :---: |
@@ -79,7 +79,7 @@ Mendukung analisis untuk:
 | :---: | :---: |
 | ![Upload File](https://github.com/user-attachments/assets/f358cc69-dec5-4202-b4d2-d9547829ac7e) | ![Dari Github](https://github.com/user-attachments/assets/4eca73d4-2850-4efd-81bc-79fd0003fd21) |
 
-###🧪 Contoh Implementasi –  (JavaScript)
+### 🧪 Contoh Implementasi –  (JavaScript)
 
 | **Kode Javascript (banyak masalah)** | |
 | :---: | :---: |
@@ -95,7 +95,7 @@ Mendukung analisis untuk:
 | :---: | :---: |
 | ![Resiko Sedang](https://github.com/user-attachments/assets/5915cfa7-fb61-4c67-9b50-d678a56459c5) | ![Resiko Rendah](https://github.com/user-attachments/assets/1ea71f1f-2545-41a2-b4f6-fbf98a454f5e) |
 
-# ⌛ Riwayat Kode
+### ⌛ Riwayat Kode
 
 | **Riwayat Kode** | |
 | :---: | :---: |
@@ -103,7 +103,7 @@ Mendukung analisis untuk:
 
 ---
 
-## 📦 Instalasi
+### 📦 Instalasi
 
 ### Prerequisites
 
