@@ -25,7 +25,6 @@ Mendukung analisis untuk:
 ### 🧠 Smart Analysis Engine (Gratis)
 - **AI Hugging Face (StarCoder)** sebagai primary analyzer (FREE tier)
 - **Smart Mock Pattern Engine** sebagai fallback (offline-safe)
-- Tidak membutuhkan OpenAI API Key
 
 ### 🛡️ Kategori Analisis
 - **Code Smell Detection**
