@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b2ccb0f0-c82b-4f2d-aa61-a4e8d98c386b" /># ReyhanCODE – AI-Powered Code Review Assistant
+# ReyhanCODE – AI-Powered Code Review Assistant
 
 ![ReyhanCODE Banner](https://img.shields.io/badge/ReyhanCODE-AI%20Code%20Review-6366f1?style=for-the-badge)
 
